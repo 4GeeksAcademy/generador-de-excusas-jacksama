@@ -1,5 +1,71 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: rgb(154, 219, 245);
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Excuse {
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    background: rgb(245, 210, 56);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+
+#GenerateExcuses {
+    width: 360px;
+    margin: auto;
+    margin-top: 20px;
+    background: rgb(41, 41, 41);
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.icon {
+    width: 70px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
 }
